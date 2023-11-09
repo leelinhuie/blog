@@ -27,5 +27,5 @@ Route::get('/addProduct/', function(){
 Route::post('/addProduct/store',[App\Http\Controllers\ProductController::class,'add']);
 
 Auth::routes(); 
-
+ddd
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
